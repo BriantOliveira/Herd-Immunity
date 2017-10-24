@@ -64,6 +64,6 @@ class Person(object):
             # Checking if person died
             if rnd < self.infected.mortality_rate:
                 # person  died
-                self.is_alive = false
+                self.is_alive = False
                 return False
         return True
